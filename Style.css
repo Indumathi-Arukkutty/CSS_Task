@@ -1,0 +1,49 @@
+.grade{
+    width:100%;
+    height:400px;
+    color: rgb(243, 243, 6);
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 5px 3px #070404;
+    border: 1px solid greenyellow;
+    background: linear-gradient(rgba(104, 14, 104, 0.555),rgb(28, 223, 206),rgb(245, 13, 52))
+}
+.backgroundimg{
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1638225117594-5b731a2b5113?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin:1px;
+}
+.Texttags{
+    color: white;
+    display:flex-block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 200px;
+    position: sticky;
+}
+
+.Texttags button{
+    margin:12px;
+    padding: 6px 90px;
+    background-color: rgb(145, 145, 145);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    
+     
+}
+.Texttags button:hover{
+    background-color: rgb(240, 82, 82);
+    color: rgb(3, 3, 3);
+    transition: 3s;
+    font-family: cursive;
+    cursor: wait;
+    box-shadow: 7px 7px 7px rgb(238, 121, 78);
+}
+
